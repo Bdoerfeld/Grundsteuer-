@@ -1,12 +1,3 @@
-Der Fehler entsteht durch die doppelten Backslashes (\"\"\") in deinem Code. Das kann passieren, wenn man Code in eine Zeichenkette packt und unnötige Escape-Zeichen (\) verwendet.
-
-Ich habe den App-Code so angepasst, dass dieser Fehler nicht mehr auftreten sollte. Hier ist der verbesserte Code für grundsteuer_app.py:
-
-Neuer Code für grundsteuer_app.py
-
-	1.	Gehe in dein GitHub-Repository und öffne die Datei grundsteuer_app.py.
-	2.	Ersetze den gesamten Inhalt mit dem folgenden Code:
-
 import streamlit as st
 
 # Titel der App
