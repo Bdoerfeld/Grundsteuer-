@@ -1,5 +1,16 @@
 import streamlit as st
 
+# FDP-Logo einbinden
+logo_url = "https://www.fdp-mv.de/sites/default/files/2020-10/MV-Logo.png"
+st.markdown(
+    f"""
+    <div style="display: flex; justify-content: flex-end; align-items: center;">
+        <img src="{logo_url}" width="120" style="margin-top: 10px; margin-right: 10px;">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 # Titel der App
 st.title("Grundsteuerberechnung in Wismar - Vergleich alte und neue Grundsteuer")
 
