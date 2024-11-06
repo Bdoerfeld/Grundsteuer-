@@ -57,8 +57,8 @@ else:
 # Erklärung der Rechenschritte
 st.subheader("Erklärung der Berechnungsschritte")
 st.write("""
-1. **Berechnung der alten Grundsteuer**: Der alte Grundsteuermessbetrag wird mit dem alten Hebesatz (580 v.H.) multipliziert und dann durch 100 geteilt.
-2. **Berechnung der neuen Grundsteuer**: Der neue Grundsteuermessbetrag wird mit dem neuen Hebesatz (541 v.H.) multipliziert und dann durch 100 geteilt.
-3. **Erforderlicher Hebesatz für Aufkommensneutralität**: Die alte Grundsteuer wird durch den neuen Grundsteuermessbetrag geteilt und mit 100 multipliziert. So wird der Hebesatz berechnet, der für eine persönliche Aufkommensneutralität nötig wäre.
+1. **Berechnung der alten Grundsteuer**: Der alte Grundsteuermessbetrag wird mit dem alten Hebesatz (580 v.H.) multipliziert.
+2. **Berechnung der neuen Grundsteuer**: Der neue Grundsteuermessbetrag wird mit dem neuen Hebesatz (541 v.H.) multipliziert.
+3. **Erforderlicher Hebesatz für Aufkommensneutralität**: Die alte Grundsteuer wird durch den neuen Grundsteuermessbetrag geteilt. So wird der Hebesatz berechnet, der für eine persönliche Aufkommensneutralität nötig wäre.
 4. **Differenz der Steuerlast**: Die Differenz zwischen der neuen und alten Grundsteuer wird berechnet, um die Änderung der Steuerlast aufzuzeigen.
 """)
